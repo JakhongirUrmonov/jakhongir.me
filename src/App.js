@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  useLocation,
+} from "react-router-dom";
+import { Container } from "react-bootstrap";
+import Home from "./components/pages/Home";
+import SingleBlogPage from "./components/pages/SingleBlogPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/blog/:blogId">
+            <SingleBlogPage />
+          </Route>
+          <Route path="*">
+            <NoMatch />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
+function NoMatch() {
+  let location = useLocation();
 
+  return (
+    <Container>
+      <h3 style={{ height: "60vh", display: "flex", alignItems: "center" }}>
+        No match for <code>{location.pathname}</code>
+      </h3>
+    </Container>
+  );
+}
 export default App;
