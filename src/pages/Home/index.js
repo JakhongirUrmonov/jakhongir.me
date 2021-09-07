@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import AboutMe from "../../AboutMe";
-import Blogs from "../../Blogs";
-import Portfolio from "../../Portfolio";
-import TopInfo from "../../TopInfo";
-import Client from "../../../contentful";
+import AboutMe from "../../components/AboutMe";
+import Blogs from "../../components/Blogs";
+import Portfolio from "../../components/Portfolio";
+import TopInfo from "../../components/TopInfo";
+import Client from "../../contentful";
 
 function Home() {
   const [blogs, setBlogs] = useState([]);

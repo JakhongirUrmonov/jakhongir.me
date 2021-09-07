@@ -64,11 +64,7 @@ function Portfolio() {
       <div className="container">
         <div className="title">
           <h2>Portfolio</h2>
-          <p>
-            Vestibulum pretium commodo porttitor. In sit amet vehicula lorem.
-            Nulla facilisi. Proin ut neque eget urna ultrices rutrum eu vitae
-            enim.
-          </p>
+          <p>Here comes less words and more projects</p>
         </div>
       </div>
       <div className="container">

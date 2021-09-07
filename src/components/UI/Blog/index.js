@@ -9,7 +9,9 @@ function Blog({ blog }) {
         <span>{new Date(blog.createdAt).toDateString()}</span>
       </Link>
       <div className="blog-text">
-        <h3>{blog.title}</h3>
+        <h3>
+          <Link to={"/blog/" + blog.id}>{blog.title} </Link>
+        </h3>
         <p>{blog.shortInfo}</p>
         <Link to={"/blog/" + blog.id}>Read more </Link>
       </div>

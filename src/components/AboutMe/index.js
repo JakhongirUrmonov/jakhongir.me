@@ -6,15 +6,15 @@ import Skill from "../UI/Skill";
 function AboutMe() {
   return (
     <>
-      <Waves id="about" position="top" />
-      <section className="about-me">
+      <Waves position="top" />
+      <section id="about" className="about-me">
         <div className="container">
           <div className="title">
             <h2>About me</h2>
             <p>
-              Vestibulum pretium commodo porttitor. In sit amet vehicula lorem.
-              Nulla facilisi. Proin ut neque eget urna ultrices rutrum eu vitae
-              enim.
+              A hardworking person who is attentive to details and focused on
+              the quality of work. A good team player, so I have such qualities
+              as sociability and a positive attitude.
             </p>
           </div>
         </div>
@@ -23,29 +23,30 @@ function AboutMe() {
             <div>
               <h3>Skills gained during all the time of my work</h3>
               <p className="about-me-text">
-                Separated they live in Bookmarksgrove right at the coast of the
-                Semantics, a large language ocean. A small river named Duden
-                flows by their place and supplies it with the necessary
-                regelialia.Separated they live in Bookmarksgrove right at the
-                coast of the Semantics, a large language ocean. A small river
-                named Duden flows by their place and supplies it with the
-                necessary regelialia.
+                I have been working as a programmer for almost 4 year. First two
+                years I have tried myself in many spheras such as desktop
+                development and also mobile development. But, I loved web
+                programming because of his ability and aviability by any
+                devices. Then I started to work as web developer. At the
+                beginning I worked as a frilancer. Then, after finishing my
+                study successfully I started to work in leading companies such
+                as JSC " Thermal Power Stations" and LLC "Abad Company"
               </p>
             </div>
             <div>
-              <img src={aboutImg} alt={aboutImg} />
+              <img src={aboutImg} alt={aboutImg} className="img-fluid" />
             </div>
             <div className="skills">
-              <Skill skill="Javascript" percentage={95} />
-              <Skill skill="Javascript" percentage={95} />
-              <Skill skill="Javascript" percentage={95} />
-              <Skill skill="Javascript" percentage={95} />
+              <Skill skill="HTML" percentage={95} />
+              <Skill skill="CSS" percentage={90} />
+              <Skill skill="SASS" percentage={90} />
+              <Skill skill="Bootstrap" percentage={80} />
             </div>
             <div className="skills">
-              <Skill skill="Javascript" percentage={95} />
-              <Skill skill="Javascript" percentage={95} />
-              <Skill skill="Javascript" percentage={95} />
-              <Skill skill="Javascript" percentage={95} />
+              <Skill skill="Javascript" percentage={85} />
+              <Skill skill="React" percentage={80} />
+              <Skill skill="Redux" percentage={60} />
+              <Skill skill="Git" percentage={90} />
             </div>
           </div>
         </div>

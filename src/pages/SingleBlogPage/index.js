@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Image } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import Client from "../../../contentful";
+import Client from "../../contentful";
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
 function SingleBlogPage() {

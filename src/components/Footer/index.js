@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  Envelope,
+  Facebook,
+  Github,
+  Instagram,
+  Telegram,
+} from "react-bootstrap-icons";
 import MainMenu from "../UI/MainMenu";
 
 function Footer() {
@@ -10,10 +17,10 @@ function Footer() {
             <h2>Urmonov Jakhongir</h2>
             <span>Web developer</span>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry’s standard
+              A hardworking person who is attentive to details and focused on
+              the quality of work. A good team player, so I have such qualities
+              as sociability and a positive attitude.
             </p>
-            <p>Copyright © 2021</p>
           </div>
           <div className="col-md-6 position-relative footer-center">
             <div className="d-flex">
@@ -29,8 +36,21 @@ function Footer() {
             <MainMenu footer={true} />
           </div>
           <div className="col">
-            <div className="footer-title">Phone</div>
-            <div className="socials"></div>
+            <div className="footer-title">Social network</div>
+            <div className="socials">
+              <a href="https://www.instagram.com/jakhongir_urmonov/">
+                <Instagram />
+              </a>
+              <a href="https://t.me/jahongir_97">
+                <Telegram />
+              </a>
+              <a href="mailto:jakhongir.urmonov@gmail.com">
+                <Envelope />
+              </a>
+              <a href="https://github.com/JakhongirUrmonov">
+                <Github />
+              </a>
+            </div>
           </div>
         </div>
       </div>

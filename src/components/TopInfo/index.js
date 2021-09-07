@@ -15,9 +15,8 @@ function TopInfo({ blogs }) {
             </h1>
             <h3>Web developer</h3>
             <p>
-              Vestibulum pretium commodo porttitor. In sit amet vehicula lorem.
-              Nulla facilisi. Proin ut neque eget urna ultrices rutrum eu vitae
-              enim.
+              Maybe I am not the best programmer of the world but I am good
+              programmer with the great habits.
             </p>
             <CustomButton text="See my resume" />
             <CustomButton text="Write me" white={true} />

@@ -5,14 +5,13 @@ import Waves from "../UI/Waves";
 function Blogs({ blogs }) {
   return (
     <>
-      <Waves id="blog" position="top" />
-      <section className="blog">
+      <Waves position="top" />
+      <section id="blog" className="blog">
         <div className="title">
           <h2>My blog</h2>
           <p>
-            Vestibulum pretium commodo porttitor. In sit amet vehicula lorem.
-            Nulla facilisi. Proin ut neque eget urna ultrices rutrum eu vitae
-            enim.
+            Here comes more words but usefull words from my experience I would
+            be happy if my posts makes your life more efficent
           </p>
         </div>
         <div className="container">

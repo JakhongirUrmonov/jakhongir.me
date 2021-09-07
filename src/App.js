@@ -8,8 +8,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import { Container } from "react-bootstrap";
-import Home from "./components/pages/Home";
-import SingleBlogPage from "./components/pages/SingleBlogPage";
+import Home from "./pages/Home";
+import SingleBlogPage from "./pages/SingleBlogPage";
 
 function App() {
   return (
