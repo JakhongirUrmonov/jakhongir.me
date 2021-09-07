@@ -22,13 +22,13 @@ function Footer() {
               as sociability and a positive attitude.
             </p>
           </div>
-          <div className="col-md-6 position-relative footer-center">
-            <div className="d-flex">
-              <div className="col">
+          <div className="col-md-6 col-sm-12 position-relative footer-center">
+            <div className="row">
+              <div className="col-md-6 col-sm-12">
                 <div className="footer-title">Phone</div>
                 <span>+998 99 5323370</span>
               </div>
-              <div className="col">
+              <div className="col-md-6 col-sm-12">
                 <div className="footer-title">Email</div>
                 <span>jakhongir.urmonov@gmail.com</span>
               </div>

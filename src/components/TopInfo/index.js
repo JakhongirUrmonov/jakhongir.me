@@ -8,7 +8,7 @@ function TopInfo({ blogs }) {
     <section className="top-info">
       <div className="container">
         <div className="row d-flex align-items-center">
-          <div className="col">
+          <div className="col-md-6 col-sm-12">
             <h2>Hello, I am</h2>
             <h1>
               <span> Urmonov</span> Jakhongir
@@ -21,7 +21,7 @@ function TopInfo({ blogs }) {
             <CustomButton text="See my resume" />
             <CustomButton text="Write me" white={true} />
           </div>
-          <div className="col">
+          <div className="slider col-md-6">
             <Splide
               options={{
                 direction: "ttb",

@@ -460,3 +460,41 @@ footer {
     margin: 1.75rem auto;
   }
 }
+@media screen and (max-width: 600px) {
+  .slider {
+    display: none;
+  }
+  .top-info {
+    h1 {
+      width: fit-content;
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 20px;
+      line-height: 0px;
+    }
+    .custom-button {
+      margin-right: 5px;
+    }
+  }
+  .navbar-collapse,
+  .navbar-brand-two {
+    padding-left: 30px;
+  }
+  footer {
+    .navbar-nav {
+      bottom: -120px;
+      justify-content: space-between;
+      width: 100%;
+      .nav-link {
+        margin-left: 0 !important;
+      }
+    }
+  }
+  .about-me .about-me-content {
+    grid-template-columns: 1fr;
+  }
+  .modal-body-content {
+    grid-template-columns: 1fr;
+  }
+}
