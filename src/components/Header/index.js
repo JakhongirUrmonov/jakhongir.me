@@ -3,7 +3,7 @@ import CustomButton from "../UI/CustomButton";
 import headerImg from "../../assets/images/header-img.png";
 import MainMenu from "../UI/MainMenu";
 import { Link } from "react-router-dom";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Navbar } from "react-bootstrap";
 
 function Header() {
   return (
@@ -32,7 +32,7 @@ function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <MainMenu />
-            <CustomButton text="Write me" />
+            <CustomButton mail={true} text="Write me" />
           </Navbar.Collapse>
         </Container>
       </Navbar>

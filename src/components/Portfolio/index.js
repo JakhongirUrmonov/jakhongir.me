@@ -11,6 +11,7 @@ function Portfolio() {
     try {
       let response = await Client.getEntries({
         content_type: "jakhongirProjectCategory",
+        order: "fields.order",
       });
       let formatedCategory = formatCategoriesData(response.items);
       setCategories(formatedCategory);

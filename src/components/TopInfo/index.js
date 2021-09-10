@@ -18,8 +18,8 @@ function TopInfo({ blogs }) {
               Maybe I am not the best programmer of the world but I am good
               programmer with the great habits.
             </p>
-            <CustomButton text="See my resume" />
-            <CustomButton text="Write me" white={true} />
+            <CustomButton mail={false} text="See my resume" />
+            <CustomButton mail={true} text="Write me" white={true} />
           </div>
           <div className="slider col-md-6">
             <Splide

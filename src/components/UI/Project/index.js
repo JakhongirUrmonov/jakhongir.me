@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import close from "../../../assets/images/close.png";
 import { Image, Modal } from "react-bootstrap";
+import { documentToHtmlString } from "@contentful/rich-text-html-renderer/dist/rich-text-html-renderer.es5";
 
 function Project({ project }) {
   const [show, setShow] = useState(false);
@@ -31,20 +32,13 @@ function Project({ project }) {
             alt={project.bigImage.fields.file.title}
             src={project.bigImage.fields.file.url}
           />
-          <div className="modal-body-content">
-            <div>
-              <h4>Задача</h4>
-              <div>{project.tasks}</div>
-            </div>
-            <div>
-              <h4>Решение</h4>
-              <div>{project.solution}</div>
-            </div>
-            <div>
-              <h4>Разработка</h4>
-              <div>{project.development}</div>
-            </div>
-            <div></div>
+          <div>
+            <div
+              className="blog-body"
+              dangerouslySetInnerHTML={{
+                __html: documentToHtmlString(project.fullText),
+              }}
+            />
           </div>
           <a
             href={project.link ? project.link : "#"}

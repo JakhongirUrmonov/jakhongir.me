@@ -304,6 +304,9 @@ header {
       &.active {
         color: #75b2ad;
       }
+      &:focus-visible {
+        outline: none;
+      }
     }
   }
   .project {
@@ -377,6 +380,7 @@ header {
       line-height: 30px;
       color: #888888;
       margin-bottom: 20px;
+      min-height: 140px;
     }
     a {
       text-decoration: none;
@@ -466,7 +470,7 @@ footer {
   }
   .top-info {
     h1 {
-      width: fit-content;
+      width: 326px;
       font-size: 36px;
     }
     h2 {
@@ -496,5 +500,17 @@ footer {
   }
   .modal-body-content {
     grid-template-columns: 1fr;
+  }
+  .single-blog-page .title {
+    width: 100%;
+    margin: 20px 0;
+    text-align: left;
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .single-blog-page .blog-body {
+    margin-top: 30px;
+    width: 100%;
   }
 }

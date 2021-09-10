@@ -1,6 +1,6 @@
 import React from "react";
 import Waves from "../UI/Waves";
-import aboutImg from "../../assets/images/aboutme.png";
+import aboutImg from "../../assets/images/aboutme1.png";
 import Skill from "../UI/Skill";
 
 function AboutMe() {
@@ -23,12 +23,12 @@ function AboutMe() {
             <div>
               <h3>Skills gained during all the time of my work</h3>
               <p className="about-me-text">
-                I have been working as a programmer for almost 4 year. First two
-                years I have tried myself in many spheras such as desktop
+                I have been working as a programmer for almost 4 years. First
+                two years I have tried myself in many spheres such as desktop
                 development and also mobile development. But, I loved web
-                programming because of his ability and aviability by any
-                devices. Then I started to work as web developer. At the
-                beginning I worked as a frilancer. Then, after finishing my
+                programming because of its ability and availability on any
+                device. Then I started to work as a web developer. At the
+                beginning, I worked as a freelancer. Then, after finishing my
                 study successfully I started to work in leading companies such
                 as JSC " Thermal Power Stations" and LLC "Abad Company"
               </p>

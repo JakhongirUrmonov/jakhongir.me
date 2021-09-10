@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Envelope,
-  Facebook,
-  Github,
-  Instagram,
-  Telegram,
-} from "react-bootstrap-icons";
+import { Envelope, Github, Instagram, Telegram } from "react-bootstrap-icons";
 import MainMenu from "../UI/MainMenu";
 
 function Footer() {
@@ -17,9 +11,9 @@ function Footer() {
             <h2>Urmonov Jakhongir</h2>
             <span>Web developer</span>
             <p>
-              A hardworking person who is attentive to details and focused on
-              the quality of work. A good team player, so I have such qualities
-              as sociability and a positive attitude.
+              “Any fool can write code that a computer can understand. Good
+              programmers write code that humans can understand.” – Martin
+              Fowler
             </p>
           </div>
           <div className="col-md-6 col-sm-12 position-relative footer-center">

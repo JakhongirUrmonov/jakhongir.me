@@ -31,7 +31,7 @@ function SingleBlogPage() {
       <div className="title">
         <h2>{blog.title}</h2>
       </div>
-      <Image src={blog?.bigImage.fields.file.url} />
+      <Image className="img-fluid" src={blog?.bigImage.fields.file.url} />
       <div
         className="blog-body"
         dangerouslySetInnerHTML={{
