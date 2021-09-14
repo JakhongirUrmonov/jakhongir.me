@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import close from "../../../assets/images/close.png";
+import close from "../../../assets/images/close.webp";
 import { Image, Modal } from "react-bootstrap";
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer/dist/rich-text-html-renderer.es5";
 
@@ -22,12 +22,14 @@ function Project({ project }) {
           <p>{project.shortInfo}</p>
         </div>
       </div>
-      <Modal show={show} onHide={handleClose}>
+      <Modal centered show={show} onHide={handleClose}>
         <Modal.Body>
           <button onClick={() => handleClose()} className="modal-close">
             <img src={close} alt={close} />
           </button>
-          <h3 className="modal-body-title">{project.title}</h3>
+          <h3 className="modal-body-title">
+            {project.title} - {project.shortInfo}
+          </h3>
           <img
             alt={project.bigImage.fields.file.title}
             src={project.bigImage.fields.file.url}
@@ -45,7 +47,7 @@ function Project({ project }) {
             style={{ float: "right", textDecoration: "none" }}
             className="custom-button"
           >
-            {project.link ? "Visit website" : "Voming soon"}
+            {project.link ? "Visit website" : "Coming soon"}
           </a>
         </Modal.Body>
       </Modal>

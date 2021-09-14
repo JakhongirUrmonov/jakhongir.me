@@ -1,6 +1,6 @@
 import React from "react";
-import topWave from "../../../assets/images/top.png";
-import bottomWave from "../../../assets/images/bottom.png";
+import topWave from "../../../assets/images/top.webp";
+import bottomWave from "../../../assets/images/bottom.webp";
 
 function Waves({ position, id }) {
   return (

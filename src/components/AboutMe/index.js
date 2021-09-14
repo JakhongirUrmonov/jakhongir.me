@@ -1,6 +1,6 @@
 import React from "react";
 import Waves from "../UI/Waves";
-import aboutImg from "../../assets/images/aboutme1.png";
+import aboutImg from "../../assets/images/aboutme1.webp";
 import Skill from "../UI/Skill";
 
 function AboutMe() {

@@ -1,6 +1,6 @@
 import React from "react";
 import CustomButton from "../UI/CustomButton";
-import headerImg from "../../assets/images/header-img.png";
+import headerImg from "../../assets/images/header-img.webp";
 import MainMenu from "../UI/MainMenu";
 import { Link } from "react-router-dom";
 import { Container, Navbar } from "react-bootstrap";
