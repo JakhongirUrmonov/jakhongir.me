@@ -21,7 +21,7 @@ function TopInfo({ blogs }) {
             <CustomButton mail={false} text="See my resume" />
             <CustomButton mail={true} text="Write me" white={true} />
           </div>
-          <div className="slider col-md-6">
+          <div className="slider col-md-5 ml-auto">
             <Splide
               options={{
                 direction: "ttb",
