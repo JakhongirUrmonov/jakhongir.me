@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function MainMenu({ footer }) {
   return (
@@ -8,24 +10,28 @@ function MainMenu({ footer }) {
       }
     >
       <li className="nav-item">
-        <a href="/#about" className="nav-link m-2 menu-item nav-active">
+        <HashLink
+          smooth
+          to="/#about"
+          className="nav-link m-2 menu-item nav-active"
+        >
           About me
-        </a>
+        </HashLink>
       </li>
       <li className="nav-item">
-        <a href="/#portfolio" className="nav-link m-2 menu-item">
+        <HashLink smooth to="/#portfolio" className="nav-link m-2 menu-item">
           Portfolio
-        </a>
+        </HashLink>
       </li>
       <li className="nav-item">
-        <a href="/#blog" className="nav-link m-2 menu-item">
+        <HashLink smooth to="/#blog" className="nav-link m-2 menu-item">
           Blog
-        </a>
+        </HashLink>
       </li>
       <li className="nav-item">
-        <a href="/#contact" className="nav-link m-2 menu-item">
+        <HashLink smooth to="/#contact" className="nav-link m-2 menu-item">
           Contact
-        </a>
+        </HashLink>
       </li>
     </ul>
   );
