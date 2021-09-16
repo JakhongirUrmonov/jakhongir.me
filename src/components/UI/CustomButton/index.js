@@ -6,6 +6,7 @@ function CustomButton({ text, white, mail }) {
     <a
       className={white ? "custom-button white" : "custom-button"}
       href={mail ? "mailto:jakhongir.urmonov@gmail.com" : resume}
+      target="_blank"
     >
       {text}
     </a>
