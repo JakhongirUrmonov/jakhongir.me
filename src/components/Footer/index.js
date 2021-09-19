@@ -20,11 +20,13 @@ function Footer() {
             <div className="row">
               <div className="col-md-6 col-sm-12">
                 <div className="footer-title">Phone</div>
-                <span>+998 99 5323370</span>
+                <a href="tel:+998 99 5323370">+998 99 5323370</a>
               </div>
               <div className="col-md-6 col-sm-12">
                 <div className="footer-title">Email</div>
-                <span>jakhongir.urmonov@gmail.com</span>
+                <a href="mailto:jakhongir.urmonov@gmail.com">
+                  jakhongir.urmonov@gmail.com
+                </a>
               </div>
             </div>
             <MainMenu footer={true} />

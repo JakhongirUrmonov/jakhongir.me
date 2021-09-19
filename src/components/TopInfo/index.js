@@ -35,7 +35,7 @@ function TopInfo({ blogs }) {
                     <Link to={"/blog/" + blog.id}>
                       <img
                         src={blog.smallImage.fields.file.url}
-                        alt="blog title 1"
+                        alt={blog.smallImage.fields.title}
                       />
                     </Link>
                   </SplideSlide>

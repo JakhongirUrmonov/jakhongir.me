@@ -33,7 +33,7 @@ function AboutMe() {
                 as JSC " Thermal Power Stations" and LLC "Abad Company"
               </p>
             </div>
-            <div>
+            <div className="about-img">
               <img src={aboutImg} alt={aboutImg} className="img-fluid" />
             </div>
             <div className="skills">

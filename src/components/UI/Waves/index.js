@@ -4,14 +4,14 @@ import bottomWave from "../../../assets/images/bottom.webp";
 
 function Waves({ position, id }) {
   return (
-    <>
+    <div className="waves">
       <img
         className={position === "top" ? "top-wave" : "bottom-wave"}
         src={position === "top" ? topWave : bottomWave}
         alt="waves"
         id={id}
       />
-    </>
+    </div>
   );
 }
 
