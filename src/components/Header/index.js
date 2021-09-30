@@ -32,7 +32,7 @@ function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <MainMenu />
-            <CustomButton mail={true} text="Write me" />
+            <CustomButton mail={true} text="Contact me" />
           </Navbar.Collapse>
         </Container>
       </Navbar>
