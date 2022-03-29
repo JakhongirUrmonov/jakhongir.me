@@ -20,7 +20,7 @@ function Footer() {
             <div className="row">
               <div className="col-md-6 col-sm-12">
                 <div className="footer-title">Phone</div>
-                <a href="tel:+998 99 5323370">+998 99 5323370</a>
+                <a href="tel:+420 728599205">+420 728599205</a>
               </div>
               <div className="col-md-6 col-sm-12">
                 <div className="footer-title">Email</div>
@@ -37,7 +37,7 @@ function Footer() {
               <a href="https://www.instagram.com/jakhongir_urmonov/">
                 <Instagram />
               </a>
-              <a href="https://t.me/jahongir_97">
+              <a href="https://t.me/JakhongirUrmonov">
                 <Telegram />
               </a>
               <a href="mailto:jakhongir.urmonov@gmail.com">
